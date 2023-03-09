@@ -1,33 +1,32 @@
-package lesson1;
-
-import lombok.*;
-import lombok.experimental.FieldDefaults;
-
-import java.util.ArrayList;
-
-//Variables are containers for storing data values.
+//package lesson1;
 //
-//        In Java, there are different types of variables, for example:
+//import lombok.*;
 //
-//        String - stores text, such as "Hello". String values are surrounded by double quotes
-//        int - stores integers (whole numbers), without decimals, such as 123 or -123
-//        float - stores floating point numbers, with decimals, such as 19.99 or -19.99
-//        char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
-//        double - is a data type that can store fractional numbers from 1.7e−308 to 1.7e+308.
-//               Note that you should end the value with a "d":
-//        boolean - stores values with two states: true or false
-//To create a variable, you must specify the type and assign it a value:
-@NoArgsConstructor //- it is changed the default constructor
-@AllArgsConstructor // - all items will be used
-@ToString
-@Getter
-@Setter
-//@FieldDefaults(level = AccessLevel.PUBLIC) - щоб в кожному рядку не писати, що всі поля публічні.
-public class User {
-    public String name;
-    public int age;
-    public boolean status;
-    public double weight;
+//import java.util.ArrayList;
+//
+////Variables are containers for storing data values.
+////
+////        In Java, there are different types of variables, for example:
+////
+////        String - stores text, such as "Hello". String values are surrounded by double quotes
+////        int - stores integers (whole numbers), without decimals, such as 123 or -123
+////        float - stores floating point numbers, with decimals, such as 19.99 or -19.99
+////        char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
+////        double - is a data type that can store fractional numbers from 1.7e−308 to 1.7e+308.
+////               Note that you should end the value with a "d":
+////        boolean - stores values with two states: true or false
+////To create a variable, you must specify the type and assign it a value:
+//@NoArgsConstructor //- it is changed the default constructor, like "public User() {}"
+//@AllArgsConstructor // - all items will be used
+//@ToString
+//@Getter
+//@Setter
+////@FieldDefaults(level = AccessLevel.PUBLIC) - щоб в кожному рядку не писати, що всі поля публічні.
+//public class User {
+//    public String name;
+//    public int age;
+//    public boolean status;
+//    public double weight;
 
    // private - access within the class
 
@@ -68,5 +67,5 @@ public class User {
 
 //    String[] skills; //- we add new array skills of our user
     // Another way to create array of skills
-    ArrayList<String> skills;
-}
+//    ArrayList<String> skills;
+//}

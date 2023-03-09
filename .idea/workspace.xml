@@ -4,16 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cd2e53c-1ba4-4266-806d-8e29ce446955" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javacore_lessons.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/lombok.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson1/User.java" afterDir="false" />
+    <list default="true" id="3cd2e53c-1ba4-4266-806d-8e29ce446955" name="Changes" comment="lesson 1">
+      <change afterPath="$PROJECT_DIR$/src/lesson2/abstraction/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson2/abstraction/Horse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson2/abstraction/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson2/composition/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson2/composition/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson2/composition/Tractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson2/composition/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson2/enums/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson2/enums/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson2/enums/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson2/exten/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson2/exten/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson2/exten/Policeman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson2/exten/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson2/generics/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson2/generics/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson1/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson1/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -54,7 +65,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "settings.editor.selected.configurable": "project.propCompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -64,12 +75,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="lesson1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson1.Main" />
       <module name="javacore_lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson1.*" />
+          <option name="PATTERN" value="lessons.lesson1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,7 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.lesson1.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -93,11 +104,26 @@
       <updated>1677608028927</updated>
       <workItem from="1677608030035" duration="1168000" />
       <workItem from="1677609264491" duration="4559000" />
-      <workItem from="1677787021874" duration="3995000" />
+      <workItem from="1677787021874" duration="4064000" />
+      <workItem from="1677864975268" duration="15000" />
+      <workItem from="1678213665890" duration="3226000" />
+      <workItem from="1678216927592" duration="14850000" />
     </task>
+    <task id="LOCAL-00001" summary="lesson 1">
+      <created>1677791126904</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677791126904</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lesson 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 1" />
   </component>
 </project>
